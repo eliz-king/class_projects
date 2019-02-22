@@ -49,7 +49,7 @@ end
 
 
 def view_grocery_store
-  @store_item.each_with_index { |item, index| puts "#{index + 1}) #{item[:item]} #{item[:price]}"}
+  @store_item.each_with_index { |item, index| puts "#{index + 1} #{item[:item]} #{item[:price]}"}
   puts 
 end
 
